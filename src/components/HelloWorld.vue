@@ -14,6 +14,8 @@ defineProps<{
       'coach',
       'sounding board',
       'mentor',
+      'muse',
+      'cowriter',
       'listener',
       'rubber ducky',
     ]" /><br /><br />
