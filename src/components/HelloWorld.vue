@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import VueWriter from "vue-writer";
+
 defineProps<{
   msg: string;
 }>();
@@ -6,11 +8,20 @@ defineProps<{
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">Wanna chat?</h1>
     <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      I'm your AI
+      <VueWriter
+        style="display: inline"
+        :array="[
+          'coach',
+          'sounding board',
+          'mentor',
+          'listener',
+          'rubber ducky',
+        ]"
+      /><br /><br />
+      <div>Call me: <a href="tel:1-910-727-4468">1-910-727-4468</a></div>
     </h3>
   </div>
 </template>
