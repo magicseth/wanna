@@ -33,7 +33,7 @@ import SupportIcon from "./icons/IconSupport.vue";
 
   <WelcomeItem>
     <template #icon>
-      <CommunityIcon />
+      <SupportIcon />
     </template>
     <template #heading>Support</template>
     I need support!
