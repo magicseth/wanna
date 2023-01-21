@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import VueWriter from "vue-writer";
-
 defineProps<{
   msg: string;
 }>();
